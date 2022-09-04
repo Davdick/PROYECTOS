@@ -1,0 +1,36 @@
+.barra {
+    padding: 10px 0;
+    background: #FFF8E5;
+    border: solid;
+    margin: 0;
+    color:black;
+}
+
+.barra p {
+    margin: 0;
+    color:black;
+}
+.icono{
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: left center;
+}
+
+@media (min-width: 750px) {
+    .icono {
+        margin-bottom: 0;
+    }
+}
+
+.icono1 {
+    background-image: url(../img/icono1.png);
+}
+.icono2 {
+    background-image: url(../img/icono2.png);
+}
+.icono3 {
+    background-image: url(../img/icono3.png);
+}
